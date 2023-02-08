@@ -6,10 +6,13 @@
  * github.com/cerebralpie
  */
 
+#ifndef QUESTION1_NODE_H
+#define QUESTION1_NODE_H
+
 #include <stdint.h>
 
 typedef enum {
-    integer_t,
+	integer_t,
     float_t,
     bool_t,
     char_t
@@ -19,3 +22,5 @@ typedef struct {
     TypeTag type;
     uint32_t value;
 } Node;
+
+#endif

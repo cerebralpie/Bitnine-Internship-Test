@@ -6,8 +6,12 @@
  * github.com/cerebralpie
  */
 
-#include "node.h"
+#ifndef QUESTION1_FUNCTIONS_H
+#define QUESTION1_FUNCTIONS_H
 
+#include "node.h"
+#include <stdint.h>
+#include <stdlib.h>
 
 // Function-like macros with support for int and
 // Node* arguments
@@ -154,3 +158,5 @@ Node *getFibInt(int32_t elem)
 
     return result;
 }
+
+#endif

@@ -6,9 +6,9 @@
  * github.com/cerebralpie
  */
 
-#include <stdlib.h>
 #include "include/functions.h"
 #include "include/output.h"
+#include <stdlib.h>
 
 int main()
 {
