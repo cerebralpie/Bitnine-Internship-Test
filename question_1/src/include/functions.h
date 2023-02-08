@@ -120,7 +120,7 @@ Node *getFibNode(Node const *elem)
     // the element's value
     if (elem->value > 2)
     {
-        for (int i = 3; i <= elem->value; i++)
+        for (int i = 3; i <= elem->value; ++i)
         {
            values[i] = values[i - 1] + values[i - 2]; 
         }
@@ -148,7 +148,7 @@ Node *getFibInt(int32_t elem)
 
     if (elem > 2)
     {
-        for (int i = 3; i <= elem; i++)
+        for (int i = 3; i <= elem; ++i)
         {
            values[i] = values[i - 1] + values[i - 2]; 
         }

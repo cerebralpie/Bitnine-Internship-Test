@@ -86,7 +86,7 @@ unsigned int relation3(unsigned int n)
 
     if (n > 3)
     {
-        for (unsigned int i = 3; i <= n; i++) 
+        for (unsigned int i = 3; i <= n; ++i) 
         {
             bottomUp[i] = bottomUp[i - 3] + bottomUp[i - 2];
         }
